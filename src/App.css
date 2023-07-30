@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito+Sans:wght@200&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=MuseoModerno&display=swap');
+.App {
+  max-width: 1260px;
+  text-align: center;
+  max-width: 2160px;
+  height: -webkit-fill-available;
+  /* display: grid;
+  align-items: center;
+  flex-direction: column; */
+  margin: auto;
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;     
+  scroll-behavior: smooth;          /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(106, 116, 110, 0.186);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #94b2e8;    /* color of the scroll thumb */
+  border-radius: 20px;      
+}
+@media print {
+  html, body {
+     display: none;  /* hide whole page */
+  }
+}
